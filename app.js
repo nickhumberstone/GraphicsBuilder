@@ -49,4 +49,5 @@ function drawScreen() {
         context.drawImage(myImage,0,0,1000,1920);
     }
 }
+>>>>>>> 2c9a7b770f1ce4b3d4e211eb8b434eaa5230250d
 window.onload=drawScreen;
