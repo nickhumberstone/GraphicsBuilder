@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>NH Graphics Builder</title>
+</head>
+<body>
+    <h1>NH Graphics Builder V1</h1>
+    <div class="format-selector">
+        <p>What social media size do you need?</p>
+        <button type="button" id="igSize">Instagram</button>
+        <button type="button" id=twSize>Twitter</button>
+        <button type="button" id=fbSize>Facebook</button>
+    </div>
+
+    <div class="image-upload">
+        <p>Upload your image here:</p>
+        <input type="file" id="fileupload" name="UploadFiles">
+
+    </div>
+    <div class="logo-toggle">
+        <p>Do you want a logo? (Top right)</p>
+        <input type="checkbox">
+
+    </div>
+    <div class="banner-text1">
+        <p>What should the main banner text say?</p>
+
+    </div>
+
+    <div class="banner-text2">
+        <p>Do you want a 2nd banner? What should the text say?</p>
+
+    </div>
+
+    <div class="imprint">
+        <p>What should the imprint text say?</p>
+
+    </div>
+
+    <div class="preview-window">
+        <canvas id="myCanvas" style="border: 2px solid black" height="600px" width="600px"></canvas>
+    </div>
+
+    <div class="print-button">
+        <button type="button" id="btnDownload">Print</button>
+
+    </div>
+
+    <p>Need help? Found a bug?<br>
+        1. Drop me an email at <a href="mailto:nickhumberstone@gmail.com">nickhumberstone@gmail.com</a><br>
+        2. Try using Chrome browser if you're not, as a quick fix (I built and tested using Chrome)
+    </p>
+
+    <script src="app.js"></script>
+</body>
+</html>
